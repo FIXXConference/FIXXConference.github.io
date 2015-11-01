@@ -73,14 +73,14 @@ a:active { text-decoration: none; color: #f36e71; }
 	padding: 20px;
 }
 
-.directions, .sponsors, .contact-footer {
+.directions, .sponsors, .contact-footer, .schedule {
 	margin-top: 30px;
 }
 
 .google-maps {
         position: relative;
-        padding-bottom: 75%; // This is the aspect ratio
-        height: 0;
+        /*padding-bottom: 20%; // This is the aspect ratio */
+        height: 250px;
         overflow: hidden;
     }
     .google-maps iframe {
@@ -88,5 +88,5 @@ a:active { text-decoration: none; color: #f36e71; }
         top: 0;
         left: 10px;
         width: 100% !important;
-        height: 30% !important;
+        height: 200px !important;
     }
