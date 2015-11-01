@@ -47,10 +47,17 @@ a:hover { text-decoration: none; color: #cd5e61; }
 a:visited { text-decoration: none; color: #f36e71; }
 a:active { text-decoration: none; color: #f36e71; }
 
+.nav {
+	margin: 0 0 15px 0;
+}
+
+.nav-justified > li > a, 
+.nav-justified > li > a:hover, 
+.nav-justified > li > a:focus { background: transparent;}
 
 .logo {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 2em;
+	margin-bottom: 1em;
 }
 
 .vcenter {
