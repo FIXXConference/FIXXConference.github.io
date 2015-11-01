@@ -1,0 +1,46 @@
+body {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.logo {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.jumbotron p {
+	text-align: right;
+}
+
+.jumbotron p.header-text {
+	font-family: Lora;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.jumbotron p.header-subtext {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: 0;
+}
+
+.btn-fixx {
+	background-color: #f36e71;
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.section-header {
+	font-family: Lora;
+	font-style: italic;
+	font-size: 20px;
+	color: #53beb4;
+}
