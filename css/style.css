@@ -2,6 +2,23 @@ body {
 	font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+h4 {
+	color: #474747;
+	font-family: Lora;
+	font-style: italic;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+	line-height: 1.4em;
+}
+
+h4.speaker_name {
+	color: #f36e71;
+}
+
+img.speaker_image {
+	width: 100%;
+}
+
 .logo {
 	margin-top: 50px;
 	margin-bottom: 50px;
