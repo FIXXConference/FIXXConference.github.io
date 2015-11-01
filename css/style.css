@@ -30,6 +30,12 @@ body {
 	margin-top: 0;
 }
 
+.jumbotron p.header-normal {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	margin-top: 0;
+}
+
 .btn-fixx {
 	background-color: #f36e71;
 	color: #fff;
@@ -43,4 +49,9 @@ body {
 	font-style: italic;
 	font-size: 20px;
 	color: #53beb4;
+}
+
+.twitter-logo-small {
+  width: 20px;
+  margin-right: 6px;
 }
