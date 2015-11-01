@@ -61,6 +61,7 @@
             <img src="images/Cleveland_bw-min.jpg" class="img-responsive">
             <div class="mailing-list-container">
                 <h4>Stay up to date and join our mailing list</h4>
+                <button id="open-popup" type="button" class="btn btn-fixx">Stay Updated</button>
             </div>
         </div>
       </div>
@@ -79,5 +80,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script>
+        function showMailingPopUp() {
+                  require(["mojo/signup-forms/Loader"], function(L) { L.start(
+                        {"baseUrl":"mc.us12.list-manage.com","uuid":"581260576d471c6919915f772","lid":"c04d761b6d"}
+                          ) })
+                        };
+
+        document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+    </script>
   </body>
 </html>
