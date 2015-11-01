@@ -2,6 +2,45 @@ body {
 	font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+h1, .jumbotron h1 {
+	font-family: Lora;
+	font-style: italic;
+	font-size: 18px;
+	text-align: right;
+}
+
+h2 {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: 0;
+	text-align: right;
+}
+
+h3 {
+	font-family: Lora;
+	font-style: italic;
+	font-size: 20px;
+	color: #53beb4;
+	margin: 0 0 15px 0;
+	line-height: 1.4em;
+}
+
+h4 {
+	color: #474747;
+	font-family: Lora;
+	font-style: italic;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+	line-height: 1.4em;
+}
+
+a:link { text-decoration: none; color: #f36e71; }
+a:hover { text-decoration: none; color: #cd5e61; }
+a:visited { text-decoration: none; color: #f36e71; }
+a:active { text-decoration: none; color: #f36e71; }
+
+
 .logo {
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -11,23 +50,6 @@ body {
     display: inline-block;
     vertical-align: middle;
     float: none;
-}
-
-.jumbotron p {
-	text-align: right;
-}
-
-.jumbotron p.header-text {
-	font-family: Lora;
-	font-style: italic;
-	font-size: 18px;
-}
-
-.jumbotron p.header-subtext {
-	font-family: Roboto, Helvetica, Arial, sans-serif;
-	font-weight: 700;
-	font-size: 15px;
-	margin-top: 0;
 }
 
 .jumbotron p.header-normal {
@@ -54,4 +76,10 @@ body {
 .twitter-logo-small {
   width: 20px;
   margin-right: 6px;
+}
+
+.mailing-list-container {
+	background: #e6e6e6;
+	margin: 15px 0 15px 0;
+	padding: 20px;
 }
