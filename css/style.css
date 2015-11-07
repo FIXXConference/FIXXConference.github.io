@@ -94,8 +94,8 @@ a:active { text-decoration: none; color: #f36e71; }
 	padding: 20px;
 }
 
-.directions, .sponsors, .contact-footer, .schedule, .speaker {
-	margin-top: 30px;
+.bottom-padding {
+	margin-bottom: 30px;
 }
 
 .google-maps {
