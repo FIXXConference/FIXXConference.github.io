@@ -116,3 +116,7 @@ a:active { text-decoration: none; color: #f36e71; }
   width: 20px;
   margin-right: 6px;
 }
+
+.jumbotron-footer {
+	margin-bottom: 0;
+}
